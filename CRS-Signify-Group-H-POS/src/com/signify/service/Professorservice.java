@@ -7,7 +7,7 @@ package com.signify.service;
  * @author palak
  *
  */
-public class Professorservice {
+public class Professorservice implements ProfessorInterface{
 	public void viewEnrolledStudents()
 	{
 		System.out.println("Enrolled students name");

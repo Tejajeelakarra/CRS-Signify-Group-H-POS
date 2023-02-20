@@ -11,6 +11,8 @@ public class Student {
 	private int studentId;
 	private String branch;
     private String batch;
+    
+    
     public int getStudentId() {
 		return studentId;
 	}
@@ -29,5 +31,6 @@ public class Student {
 	public void setBatch(String batch) {
 		this.batch = batch;
 	}
+
 	
 }

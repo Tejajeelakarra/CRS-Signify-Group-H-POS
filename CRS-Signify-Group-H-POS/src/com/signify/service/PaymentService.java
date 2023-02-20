@@ -7,7 +7,7 @@ package com.signify.service;
  * @author Nivi
  *
  */
-public class PaymentService {
+public class PaymentService implements PaymentInterface{
 	public void sendNotification() {
 		System.out.println("Notification sent");
 	}
